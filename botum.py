@@ -23,6 +23,5 @@ async def repeat(ctx, times: int, content='repeating...'):
     """Repeats a message multiple times."""
     for i in range(times):
         await ctx.send(content)
-
-        
-bot.run("token")
+   
+bot.run("token gelmelidir")
